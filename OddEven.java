@@ -7,9 +7,9 @@ public class OddEven {
             int num=scan.nextInt();
             int res=num%2;
             if(res == 0){
-                System.out.println("Given number is Even Number");
+                System.out.println("Give number is Even Number");
             }else{
-                System.out.println("Given number is odd Number");
+                System.out.println("Give number is odd Number");
             }
         }
     }
