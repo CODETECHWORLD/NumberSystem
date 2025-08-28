@@ -8,7 +8,7 @@ public class FactorsCounts {
             int FactorsCounts=0;
             for (int i = 1; i <= num; i++) {
                 if(num%i == 0){
-                    System.out.println(i);
+                    // System.out.println(i);
                     FactorsCounts++;
                 }
             }
