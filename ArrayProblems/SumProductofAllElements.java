@@ -22,7 +22,6 @@ public class SumProductofAllElements {
         for (int i = 0; i < array.length; i++) {
             sum += array[i];
             Product *= array[i];
-            
         }
         System.out.println("Lenght of array elements : " + array.length);
         System.out.println("Entered array elements : " + Arrays.toString(array));

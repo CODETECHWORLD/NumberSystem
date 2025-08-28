@@ -1,8 +1,8 @@
+//WAJP to find the odd index and even index elements present in an array
+
 import java.lang.*;
 import java.util.Arrays;
 import java.util.Scanner;
-
-//WAJP to find the odd index and even index elements present in an array
 
 public class FindOddEvenElement {
     public static void main(String[] args) {
