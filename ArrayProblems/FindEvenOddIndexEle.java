@@ -1,10 +1,7 @@
-//WAJP to find the odd index and even index elements present in an array
-
-import java.lang.*;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class FindOddEvenElement {
+public class FindEvenOddIndexEle {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         System.out.println("Enter size of array : ");
@@ -19,16 +16,15 @@ public class FindOddEvenElement {
         }
         System.out.println("Entered array elements : " + arr.length);
         System.out.println("Entered array elements : " + Arrays.toString(arr));
-        findOddEvenElement(arr);
+        findEvenOddIndexEle(arr);
     }
 
-    public static void findOddEvenElement(int[] arr){
-        System.out.println("Array element "+ Arrays.toString(arr));
+    public static void findEvenOddIndexEle(int[] arr){
         for (int i = 0; i < arr.length; i++) {
-            if(arr[i] % 2 == 0) {
-                System.out.println("Even Number : "+arr[i]);
+            if(i % 2 == 0){
+                System.out.println("Even index Element : "+ i +" "+ arr[i]);
             }else{
-                System.out.println("Odd Number : "+arr[i]);
+                System.out.println("Odd index Element : "+ i +" "+ arr[i]);
             }
         }
     }

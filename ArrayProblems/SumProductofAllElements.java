@@ -15,6 +15,7 @@ public class SumProductofAllElements {
             num=0;
         }
         sumProductofElements(arr);
+        scan.close();
     }
 
     public static void sumProductofElements(int[] array){
